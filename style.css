@@ -222,3 +222,36 @@ ul li{
 .card-body h4{
     margin-bottom: 1rem;
 }
+
+
+
+footer{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.footer-div1 h3{
+    display: flex;
+    justify-content: center;
+}
+
+.div77{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.div77 input{
+    padding: 10px 50px;
+}
+
+
+.div77 button{
+    padding: 0px 20px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
