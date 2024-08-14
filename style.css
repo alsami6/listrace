@@ -105,6 +105,8 @@ ul li{
 
 .svg-img{
     width: 60px;
+    display: block;
+    margin: auto;
 }
 
 .hero-cards{
@@ -120,4 +122,103 @@ ul li{
     box-shadow: 2px 2px 10px;
     background-color: white;
     cursor: pointer;
+}
+
+.howit{
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heading-how h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.heading-how p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.how-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.how-card{
+    box-shadow: 1px 1px 10px;
+    padding: 30px;
+}
+
+.how-card button{
+    display: block;
+    margin:0 auto;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+}
+
+.how-card h4,p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.explore{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.explore a{
+    text-decoration: none;
+    color: black;
+}
+
+.explore-heading {
+    margin-bottom: 4rem;
+}
+
+.explore-heading h3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.ex-card-1{
+    box-shadow: 1px 1px 20px;
+}
+
+.card-body{
+    padding: 15px 25px;
+}
+
+.inner-card-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body h4{
+    margin-bottom: 1rem;
 }
